@@ -1,6 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 int main() {
      int opcao;
+     int numeros,palpite;
 
      printf("****MENU PRINCIPAL****\n");
      printf("1. Iniciar \n");
@@ -12,7 +16,10 @@ int main() {
      switch (opcao)
      {
         case 1:
-        printf("Executar jogo.\n");
+        srand(time(0));
+        numeros = rand() % 10;
+
+        
         break;
         case 2:
         printf("As regras são....\n");
@@ -24,7 +31,7 @@ int main() {
         printf("Opção inválida.\n");
         break;
      }
-     
+
      return 0;
 
 }
