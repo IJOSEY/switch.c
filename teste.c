@@ -9,7 +9,7 @@ int main(){
       scanf("%d",&teste);
 
       printf("Digite nome:");
-      scanf("%s",&letra);
+      scanf("%s", &letra);
 
       printf("Digite uma nota:");
       scanf("%f",&teste2);
