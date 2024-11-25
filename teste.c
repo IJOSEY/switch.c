@@ -1,22 +1,24 @@
 /*Testar diversas posibilidades da estrutura em questão.*/
 #include <stdio.h>
 int main(){
-     int teste;
-     char letra [10],carcter;
-     float teste2;
+     //int teste;
+     //char letra [10];
+     char variavel;
+     //float teste2;
 
-      printf("Digite número teste:");
-      scanf("%d",&teste);
+      //printf("Digite número teste:\n");
+      //scanf("%d",&teste);
 
-      printf("Digite caracter:");
-      scanf("%c", &carcter);
+      printf("Digite uma letra.\n");
+      scanf("%c" ,&variavel);
 
-      printf("Digite nome:");
-      scanf("%s", &letra);
+      //printf("Digite nome:\n");
+      //scanf("%s", &letra);
 
-      printf("Digite uma nota:");
-      scanf("%f",&teste2);
-      switch (teste)
+      //printf("Digite uma nota:\n");
+      //scanf("%f",&teste2);
+
+      switch (variavel)
       {
       case 'A':
       printf("você digitou 1.\n");
