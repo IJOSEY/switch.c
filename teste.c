@@ -2,11 +2,14 @@
 #include <stdio.h>
 int main(){
      int teste;
-     char letra [10];
+     char letra [10],carcter;
      float teste2;
 
       printf("Digite número teste:");
       scanf("%d",&teste);
+
+      printf("Digite caracter:");
+      scanf("%c", &carcter);
 
       printf("Digite nome:");
       scanf("%s", &letra);
@@ -15,11 +18,11 @@ int main(){
       scanf("%f",&teste2);
       switch (teste)
       {
-      case 1:
+      case 'A':
       printf("você digitou 1.\n");
       break;
 
-      case 2:
+      case 'B':
       printf("Você digitou 2.\n");
       break;
       
